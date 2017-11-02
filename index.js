@@ -22,7 +22,7 @@ function add2(n) {
 
 var funkyFunction = function outer() {
   return function inner() {
-    return "FUNKY!"
+    return 'FUNKY!'
   }
   inner();
 }
