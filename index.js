@@ -1,4 +1,4 @@
-var animal = 'dog'
+var animal = 'dog' //global variable
 
 function myAnimal() {
   return animal
@@ -19,7 +19,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
-   function() {
+  return function innerFunk() {
     return "FUNKY!"
   }
 }
