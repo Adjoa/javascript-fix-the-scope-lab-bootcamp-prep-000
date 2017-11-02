@@ -24,8 +24,9 @@ var funkyFunction = function outer() {
   return function inner() {
     return "FUNKY!"
   }
+  inner();
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction().outer()
+var theFunk = funkyFunction()
